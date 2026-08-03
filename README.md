@@ -1,4 +1,4 @@
-# globallife-ai
+# globallife
 
 A front-end for a relocation platform: visa guidance and language learning in one dashboard,
 built as a design and architecture exercise in Next.js 16 and React 19.
@@ -8,8 +8,7 @@ built as a design and architecture exercise in Next.js 16 and React 19.
 > **Read this first.** This is a front-end build. Authentication is real — Google OAuth through
 > NextAuth. The product surfaces are not backed by services yet: the support chatbot answers
 > from a hardcoded response map, and the visa and lesson screens render designed states rather
-> than live data. Details in [Status](#status). The name predates that decision and overstates
-> what ships today.
+> than live data. Details in [Status](#status).
 
 ---
 
@@ -106,8 +105,8 @@ only API route in the project is NextAuth's.
 ## Running it
 
 ```bash
-git clone https://github.com/Tunaycel/globallife-ai
-cd globallife-ai
+git clone https://github.com/Tunaycel/globallife
+cd globallife
 npm install
 ```
 
